@@ -1,0 +1,130 @@
+
+.reg_logo {
+    height: 84px;
+    border-bottom: 2px solid #b31610;
+    padding-top: 16px;
+}
+.reg_hd {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    color: #333;
+    background-color: #ececec;
+}
+.reg_form {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.reg_form h3 {
+    display: inline-block;
+    font-size: 18px;
+}
+.reg_bd {
+    width: 600px;
+    margin: 50px auto;
+}
+.reg_bd label {
+    display: inline-block;
+    width: 90px;
+    height: 36px;
+    text-align: right;
+}
+.reg_bd ul {
+    padding-bottom: 50px;
+}
+.reg_bd ul li {
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.reg_bd ul li span {
+    color: #ca111a;
+}
+.error {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    
+}
+.reg_bd .success {
+    display: inline-block;
+    color: #39ba36;
+    height: 36px;
+    line-height: 36px;
+    
+}
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    margin-top: -3px;
+    background: url(../images/error.png);
+    vertical-align: middle;
+}
+.success_icon {
+    background: url(../images/success.png);
+    
+}
+.reg_bd ul li .inp{
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+}
+
+.reg_bd .reg_pwd_safe {
+    
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding-left: 170px;
+    font-size: 12px;
+}
+.reg_bd .reg_pwd_safe em {
+    margin: 0 1px;
+    color: #fff;
+}
+.ruo {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    background-color: #e00900;
+}
+.zhong {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    background-color: #39ba36;
+}
+.qiang {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    background-color: #f99200;
+}
+.agree input{
+    /* vertical-align: middle; */
+    margin: 0 8px 0 90px;
+}
+
+.agree a {
+    color: #1ba1e6;
+    margin-left: 8px;
+}
+.reg_bd input[type=submit] {
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #ca111a;
+    cursor: pointer;
+}
